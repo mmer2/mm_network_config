@@ -15,10 +15,10 @@ variable "prefix" {
 }
 
 variable "environment" {
-  type = string
+  type        = string
   description = "(Optional)Environment we are deploying to"
-default = "development"
-  
+  default     = "development"
+
 }
 
 variable "cidr_block" {
@@ -37,9 +37,9 @@ variable "public_subnets" {
 }
 
 variable "repository_name" {
-  type = string
+  type        = string
   description = "Name of the repository"
-  default = "mm_network_config"
+  default     = "mm_network_config"
 
-  
+
 }
