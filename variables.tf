@@ -18,7 +18,11 @@ variable "environment" {
   type        = string
   description = "(Optional)Environment we are deploying to"
   default     = "development"
+}
 
+variable "billing_code" {
+  type        = string
+  description = "Company billing code."
 }
 
 variable "cidr_block" {
