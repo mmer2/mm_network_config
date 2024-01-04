@@ -43,9 +43,3 @@ variable "repository_name" {
 
 
 }
-
-variable "billing_code" {
-  type = string
-  description = "Billing code being used"
-  
-}
